@@ -169,7 +169,6 @@ unpack_ramdisk() {
   test -d $ramdisk && mv -f $ramdisk $home/rdtmp;
   mkdir -p $ramdisk;
   chmod 755 $ramdisk;
-  cp $ramdisk/init.mhdzmr.rc /system/etc/init/
 
   cd $ramdisk;
   EXTRACT_UNSAFE_SYMLINKS=1 cpio -d -F $split_img/ramdisk.cpio -i;
