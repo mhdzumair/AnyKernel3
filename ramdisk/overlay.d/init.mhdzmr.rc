@@ -1,0 +1,4 @@
+# (c) 2020 MhDzMR-Kernel
+
+on post-fs
+    exec u:r:magisk:s0 root root -- /sbin/mhdzmr.sh
