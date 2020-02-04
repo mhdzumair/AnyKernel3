@@ -1,14 +1,14 @@
 NAME ?= MhDZmR
 
-VERSION ?= 3.0
+VERSION ?= 0.1
 
-DEVICE ?= woods
+DEVICE ?= nicklaus
 
 DATE := $(shell date +'%Y%m%d-%H%M')
 
 ZIP := $(NAME)-$(VERSION)-$(DEVICE)-$(DATE).zip
 
-EXCLUDE := Makefile README.md *.git* MhDzMR-Ngt-woods*.zip *sha1 *placeholder
+EXCLUDE := Makefile README.md *.git* *zip *sha1 *placeholder
 
 all: $(ZIP)
 
