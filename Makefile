@@ -1,6 +1,6 @@
 NAME ?= MhDZmR
 
-VERSION ?= 3.0
+VERSION ?= 4.0
 
 DEVICE ?= woods
 
